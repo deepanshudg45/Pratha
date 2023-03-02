@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="dash.css">
+</head>
+
+<body>
+  <nav>
+    <div class="sidebar-top">
+      <span class="shrink-btn">
+        <i class='bx bx-chevron-left'></i>
+      </span>
+      <img src="img/Untitled design.png" class="logo" alt="">
+      <h3 class="hide">Pratha</h3>
+    </div>
+
+    <div class="search">
+      <i class='bx bx-search'></i>
+      <input type="text" class="hide" placeholder="Quick Search ...">
+    </div>
+
+    <div class="sidebar-links">
+      <ul>
+        <div class="active-tab"></div>
+        <li class="tooltip-element" data-tooltip="0">
+          <a href="#" class="active" data-active="0">
+            <div class="icon">
+              <i class='bx bx-tachometer'></i>
+              <i class='bx bxs-tachometer'></i>
+            </div>
+            <span class="link hide">Dashboard</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="1">
+          <a href="#" data-active="1">
+            <div class="icon">
+              <i class='bx bx-folder'></i>
+              <i class='bx bxs-folder'></i>
+            </div>
+            <span class="link hide">Test</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="#" data-active="2">
+            <div class="icon">
+              <i class='bx bx-message-square-detail'></i>
+              <i class='bx bxs-message-square-detail'></i>
+            </div>
+            <span class="link hide">Exam</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="3">
+          <a href="#" data-active="3">
+            <div class="icon">
+              <i class='bx bx-bar-chart-square'></i>
+              <i class='bx bxs-bar-chart-square'></i>
+            </div>
+            <span class="link hide">Analytics</span>
+          </a>
+        </li>
+        <div class="tooltip">
+          <span class="show">Dashboard</span>
+          <span>Test</span>
+          <span>Exam</span>
+          <span>Analytics</span>
+        </div>
+      </ul>
+
+      <h4 class="hide">Shortcuts</h4>
+
+      <ul>
+        <li class="tooltip-element" data-tooltip="0">
+          <a href="#" data-active="4">
+            <div class="icon">
+              <i class='bx bx-notepad'></i>
+              <i class='bx bxs-notepad'></i>
+            </div>
+            <span class="link hide">Tasks</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="1">
+          <a href="#" data-active="5">
+            <div class="icon">
+              <i class='bx bx-help-circle'></i>
+              <i class='bx bxs-help-circle'></i>
+            </div>
+            <span class="link hide">Help</span>
+          </a>
+        </li>
+        <li class="tooltip-element" data-tooltip="2">
+          <a href="#" data-active="6">
+            <div class="icon">
+              <i class='bx bx-cog'></i>
+              <i class='bx bxs-cog'></i>
+            </div>
+            <span class="link hide">Settings</span>
+          </a>
+        </li>
+        <div class="tooltip">
+          <span class="show">Tasks</span>
+          <span>Help</span>
+          <span>Settings</span>
+        </div>
+      </ul>
+    </div>
+
+    <div class="sidebar-footer">
+      <a href="#" class="account tooltip-element" data-tooltip="0">
+        <i class='bx bx-user'></i>
+      </a>
+      <div class="admin-user tooltip-element" data-tooltip="1">
+        <div class="admin-profile hide">
+          <img src="./img/face-1.png" alt="">
+          <div class="admin-info">
+            <h3>Nikhil Mathur</h3>
+            <h5>Student</h5>
+          </div>
+        </div>
+        <a href="#" class="log-out">
+          <i class='bx bx-log-out'></i>
+        </a>
+      </div>
+      <div class="tooltip">
+        <span class="show">Nikhil Mathur</span>
+        <span>Logout</span>
+      </div>
+    </div>
+  </nav>
+
+
+  <main>
+    <h1 > Dashboard</h1>
+    <div class="updates"><br>
+      <div class="text"><p class="text"><span ><h2 id="upd">Updates!!</h2></span><br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corrupti quisquam esse ipsa quis earum cum sit, maxime similique soluta animi laudantium atque officia odio. Fugiat quasi consequuntur pariatur perspiciatis est libero vitae architecto dignissimos veniam aliquam quia, similique possimus repellendus ipsam minima dicta temporibus, distinctio ratione ex ea quas animi ipsa. Minus necessitatibus modi doloribus sunt reprehenderit.</p>
+      </div>
+      <div class="img">
+        <img src="img/undraw_Team_up_re_84ok-removebg-preview.png" alt="">
+      </div>
+    </div><br><br>
+    <h3>Ativities</h3>
+    <div class="activity">
+      <div class="tiles"><img src="img/logo.png" alt="" style="float: left;"><span>Presence:</span></div>
+      <div class="tiles"><img src="img/checklist.png" alt="" style="float: left;"><span>Test:</span></div>
+      <div class="tiles"><img src="img/exam.png" alt="" style="float: left;"><span>Exam:</span></div>
+    </div><br><br>
+    <!-- <div class="leaderboard">
+      <h1>
+        High Scores
+      </h1>
+      <ol>
+        <li>
+          Sowjanya (codepen.io/sowg)
+          <small>21</small>
+        </li>
+        <li>
+          Shreyas (codepen.io/sn236)
+          <small>15</small>
+        </li>
+        <li>
+        Shreya (Year 3-5)
+          <small>7</small>
+        </li>
+        <li>
+          <mark>-</mark>
+          <small>-</small>
+        </li>
+        <li>
+          <mark>-</mark>
+          <small>-</small>
+        </li>
+      </ol>
+    </div> -->
+    <h3><em>Leaderboard</em></h3><br>
+    <div class="quiz-window">
+      <div class="quiz-window-header">
+        <div class="quiz-window-title">Weekly Rankigs</div>
+      </div>
+      <div class="quiz-window-body">
+        <div class="gui-window-awards">
+          <ul class="guiz-awards-row guiz-awards-header">
+            <li class="guiz-awards-header-star">&nbsp;</li>
+            <li class="guiz-awards-header-title">Name</li>
+            <li class="guiz-awards-header-track">Rank</li>
+            <li class="guiz-awards-header-time">score</li>
+          </ul>
+          <ul class="guiz-awards-row guiz-awards-row-even">
+            <li class="guiz-awards-star"><span class="star goldstar"></span></li>
+            <li class="guiz-awards-title">Golden Star
+              <div class="guiz-awards-subtitle">90-100% correct answers</div>
+            </li>
+            <li class="guiz-awards-track">8</li>
+            <li class="guiz-awards-time">10</li>
+          </ul>
+          <ul class="guiz-awards-row">
+            <li class="guiz-awards-star"><span class="star silverstar"></span></li>
+            <li class="guiz-awards-title">Silver Star
+              <div class="guiz-awards-subtitle">80-90% correct answers</div>
+            </li>
+            <li class="guiz-awards-track"><span class="null">0</span></li>
+            <li class="guiz-awards-time"><span class="null">0</span></li>
+          </ul>
+          <ul class="guiz-awards-row guiz-awards-row-even">
+            <li class="guiz-awards-star"><span class="star bronzestar"></span></li>
+            <li class="guiz-awards-title">Bronze Star
+              <div class="guiz-awards-subtitle">70-80% correct answers</div></li>
+            <li class="guiz-awards-track">2</li>
+            <li class="guiz-awards-time">2</li>
+          </ul>
+          <ul class="guiz-awards-row">
+            <li class="guiz-awards-star"><span class="star rhodiumstar"></span></li>
+            <li class="guiz-awards-title">Rhodium Star
+              <div class="guiz-awards-subtitle">60-70% correct answers</div></li>
+            <li class="guiz-awards-track"><span class="null">0</span></li>
+            <li class="guiz-awards-time"><span class="null">0</span></li>
+          </ul>
+          <ul class="guiz-awards-row guiz-awards-row-even">
+            <li class="guiz-awards-star"><span class="star platinumstar"></span></li>
+            <li class="guiz-awards-title">Platinum Star
+              <div class="guiz-awards-subtitle">50-60% correct answers</div></li>
+            <li class="guiz-awards-track">2</li>
+            <li class="guiz-awards-time">2</li>
+          </ul>
+          <ul class="guiz-awards-row">
+            <li class="guiz-awards-star"><span class="star"></span></li>
+            <li class="guiz-awards-title">Star</li>
+            <li class="guiz-awards-track"><span class="null">0</span></li>
+            <li class="guiz-awards-time"><span class="null">0</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+   <br><br>
+   <div class="footer"> <p class="copyright">
+      &copy; 2023 - <span>Pratha</span> All Rights Reserved.
+    </p></div>
+
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

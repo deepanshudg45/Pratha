@@ -21,23 +21,24 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    background: url('../assets/background_image.jpg');
-    background-color : black;
+    background-color:#5872f5;
+    /* background: url('../assets/background_image.jpg'); */
+    background-color :#5872f5;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .game-quiz-container{
-    width: 40rem;
-    height: 30rem;
-    background-color: lightgray;
+    width: 50rem;
+    height: 35rem;
+    background-color:white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .game-details-container{
@@ -100,7 +101,7 @@ span label:hover{
     -ms-transform: scale(1.12);
     -webkit-transform: scale(1.12);
     transform: scale(1.12);
-    color: white;
+    color: #3651d4;
 }
 
 input[type="radio"] {
@@ -131,7 +132,12 @@ input[type=radio]:checked ~ .option {
     outline: none;
 }
 .next-button-container button:hover{
-    background-color: rgb(143, 93, 93);
+    background-color:  #8495eb;
+    width:8.2rem;
+    font-weight:800 ;
+    -ms-transform: scale(1.12);
+    -webkit-transform: scale(1.12);
+    transform: scale(1);
 }
 
 .modal-container{
@@ -224,8 +230,9 @@ input[type=radio]:checked ~ .option {
     }
 
     .game-options-container span{
-        width: 90%;
-        height: 2.5rem;
+        width: 80%;
+        height: 2 rem;
+        margin:2%;
     }
     .game-options-container span label{
         font-size: 0.8rem;

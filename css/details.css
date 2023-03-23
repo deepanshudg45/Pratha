@@ -39,6 +39,12 @@
 h1{
     font-family: cursive;
 }
+#eng{
+    border-bottom: 4px dotted rgb(117, 117, 212,0.8);
+    border-radius: 14%;
+    width: 100px;
+    text-shadow: 2px 2px rgb(123, 220, 225,0.35) ;
+}
 .tiles{
     width:15%;
     padding: 2%;
